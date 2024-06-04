@@ -56,46 +56,60 @@ function color(z) {
 
 // {
 //     // masala-3 //
-//     let a = prompt("a va b sonini kiritng")
-//     let s = a * b
-//     let p = 2 * (a + b)
-//     alert(`Perimetri: ${s} Yuza: ${p}`)
+//     let a = +prompt("a sonini kiriting")
+//     console.log(a);
+//     let b = +prompt("b sonini kirting")
+//     console.log(b);
+//     let S = a * b
+//     console.log("Yuzasi:" + S);
+//     let P = 2 * (a + b)
+//     console.log("Perimetri:" + P);
+//     alert ( `Yuzasi: ${S}  Perimetri: ${P}`)
 // }
 
 // {
 //     // masala-4 //
-//     let a = prompt("d sonini kiritng")
-//     let l = b * 3.14
-//     alert(`uzunligi: ${l}`)
+//     let d = prompt("d sonini kirting")
+//     console.log(d);
+//     console.log("п=" + 3.14);
+//     let L = 3.14 * d
+//     alert (`Uzunligi: ${L}`)
 // }
 
 // {
 //     // masala-5 //
-//     let a = prompt("a sonini kiritng")
-//     let v = a * a * a
-//     let s = 6 * a * a
-//     alert(`Hajmi: ${v} Sirti: ${s}`)
+//     let a =prompt ("a sonini kirting")
+//     console.log(a);
+//     let V = a * a * a
+//     console.log("Hajmi:" + V);
+//     let S = 6 * a * a
+//     console.log("Yuzasi:" + S);
+//     alert (`Hajmi: ${V} Yuzasi: ${S}`)
 // }
 
 // {
 //     // masala-6 //
-//     let a = prompt("a, b, c sonini kiritng")
-//     let v = a * b * 1
-//     let s = 2 * (a * b + b * 1 + a * 1)
-//     alert(`Hajmi: ${v} Sirti: ${s}`)
+//     let a = +prompt("a sonini kirting")
+//     let b = +prompt("b sonini kirting")
+//     let c = +prompt("c sonini kirting")
+//     let V = a * b * c
+//     let S = 2*(a * b + b * c + c * a)
+//     alert (`Hajmi: ${V} Yuzasi: ${S}`)
 // }
 
 // {
 //     // masala-7 //
-//     let a = prompt("R sonini kiritng")
-//     let l = 2 * a * b
-//     let s = a * b * b
-//     alert(`uzunligi: ${l} yuzasi: ${s}`)
+//     let R = prompt("R sonini kiriting")
+//     console.log("pi=" + 3.14);
+//     let L = 2 * 3.14 * R
+//     let S = 3.14 * R * R 
+//     alert (`Uzunligi: ${L} Yuzasi: ${S}`)
 // }
 
 // {
 //     // masala-8 //
-//     let a = prompt("a va b sonini kiritng")
-//     let s = (a + b) / 2
-//     alert(`o'rta arifmetigi: ${s}`)
+//     let a = +prompt("a sonini kiriting")
+//     let b = +prompt("b sonini kiriting")
+//     let M = (a + b)/2
+//     alert (`O'rta arifmetigi: ${M}`)
 // }
